@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components/header.css">
+    <link rel="stylesheet" href="css/components/hero.css">
+    <link rel="stylesheet" href="css/components/carousel.css">
+    <link rel="stylesheet" href="css/components/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/thumbnails/Netflix_Logo_PMS.png" alt="Netflix">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#" class="active">홈</a></li>
+                <li><a href="#">TV 프로그램</a></li>
+                <li><a href="#">영화</a></li>
+                <li><a href="#">NEW! 요즘 대세 콘텐츠</a></li>
+                <li><a href="#">내가 찜한 콘텐츠</a></li>
+            </ul>
+        </nav>
+        <div class="header-right">
+            <div class="search">
+                <i class="fas fa-search"></i>
+            </div>
+            <div class="notification">
+                <i class="fas fa-bell"></i>
+            </div>
+            <div class="profile">
+                <img src="images/thumbnails/profile.png" alt="프로필">
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <section class="hero" style="background-image: url('images/thumbnails/main-img.webp');">
+            <div class="hero-content">
+                <img src="images/thumbnails/main-write.webp" alt="메인 타이틀" class="featured-title">
+                <p class="featured-desc">최고의 인기작을 지금 바로 시청하세요. 모든 디바이스에서 무제한으로 스트리밍할 수 있습니다.</p>
+                <div class="button-group">
+                    <button class="play-button">
+                        <i class="fas fa-play"></i> 재생
+                    </button>
+                    <button class="info-button">
+                        <i class="fas fa-info-circle"></i> 상세 정보
+                    </button>
+                </div>
+            </div>
+        </section>
+        
+        <section class="carousel">
+            <h2>인기 콘텐츠</h2>
+            <div class="thumbnails">
+                <div class="thumbnail">
+                    <img src="images/thumbnails/1.webp" alt="영화1">
+                </div>
+                <div class="thumbnail">
+                    <img src="images/thumbnails/2.jpg" alt="영화2">
+                </div>
+                <div class="thumbnail">
+                    <img src="images/thumbnails/4.webp" alt="영화3">
+                </div>
+                <div class="thumbnail">
+                    <img src="images/thumbnails/5.webp" alt="영화4">
+                </div>
+                <div class="thumbnail">
+                    <img src="images/thumbnails/6.webp" alt="영화5">
+                </div>
+                <div class="thumbnail">
+                    <img src="images/thumbnails/7.webp" alt="영화6">
+                </div>
+            </div>
+        </section>
+        
+        <section class="carousel">
+            <h2>지금 뜨는 콘텐츠</h2>
+            <div class="thumbnails">
+                <div class="thumbnail">
+                    <img src="images/thumbnails/8.webp" alt="트렌딩1">
+                </div>
+                <div class="thumbnail">
+                    <img src="images/thumbnails/9.jpg" alt="트렌딩2">
+                </div>
+                <div class="thumbnail">
+                    <img src="images/thumbnails/10.webp" alt="트렌딩3">
+                </div>
+                <div class="thumbnail">
+                    <img src="images/thumbnails/11.webp" alt="트렌딩4">
+                </div>
+                <div class="thumbnail">
+                    <img src="images/thumbnails/12.webp" alt="트렌딩5">
+                </div>
+                <div class="thumbnail">
+                    <img src="images/thumbnails/13.webp" alt="트렌딩6">
+                </div>
+            </div>
+        </section>
+        
+        <section class="carousel">
+            <h2>오늘의 대한민국 TOP 10 시리즈</h2>
+            <div class="thumbnails top-10">
+                <div class="thumbnail">
+                    <div class="rank">1</div>
+                    <img src="images/thumbnails/top-10.webp" alt="TOP 1">
+                </div>
+                <div class="thumbnail">
+                    <div class="rank">2</div>
+                    <img src="images/thumbnails/top-10.2.webp" alt="TOP 2">
+                </div>
+                <div class="thumbnail">
+                    <div class="rank">3</div>
+                    <img src="images/thumbnails/top-10.3.jpg" alt="TOP 3">
+                </div>
+                <div class="thumbnail">
+                    <div class="rank">4</div>
+                    <img src="images/thumbnails/top-10.4.jpg" alt="TOP 4">
+                </div>
+                <div class="thumbnail">
+                    <div class="rank">5</div>
+                    <img src="images/thumbnails/top-10.5.webp" alt="TOP 5">
+                </div>
+                <div class="thumbnail">
+                    <div class="rank">6</div>
+                    <img src="images/thumbnails/top-10.6.jpg" alt="TOP 6">
+                </div>
+            </div>
+        </section>
+        
+        <section class="carousel">
+            <h2>오리지널 시리즈</h2>
+            <div class="thumbnails">
+                <div class="thumbnail">
+                    <img src="images/thumbnails/14.jpg" alt="오리지널1">
+                </div>
+                <div class="thumbnail">
+                    <img src="images/thumbnails/15.webp" alt="오리지널2">
+                </div>
+                <div class="thumbnail">
+                    <img src="images/thumbnails/16.jpg" alt="오리지널3">
+                </div>
+                <div class="thumbnail">
+                    <img src="images/thumbnails/17.jpg" alt="오리지널4">
+                </div>
+                <div class="thumbnail">
+                    <img src="images/thumbnails/18.webp" alt="오리지널5">
+                </div>
+                <div class="thumbnail">
+                    <img src="images/thumbnails/19.webp" alt="오리지널6">
+                </div>
+            </div>
+        </section>
+        
+        <section class="carousel">
+            <h2>다시보기 추천</h2>
+            <div class="thumbnails">
+                <div class="thumbnail">
+                    <img src="images/thumbnails/20.webp" alt="추천1">
+                </div>
+                <div class="thumbnail">
+                    <img src="images/thumbnails/21.webp" alt="추천2">
+                </div>
+                <div class="thumbnail">
+                    <img src="images/thumbnails/22.webp" alt="추천3">
+                </div>
+                <div class="thumbnail">
+                    <img src="images/thumbnails/23.webp" alt="추천4">
+                </div>
+                <div class="thumbnail">
+                    <img src="images/thumbnails/24.webp" alt="추천5">
+                </div>
+                <div class="thumbnail">
+                    <img src="images/thumbnails/25.jpg" alt="추천6">
+                </div>
+            </div>
+        </section>
+        
+        <section class="carousel">
+            <h2>넷플릭스 게임</h2>
+            <div class="thumbnails games">
+                <div class="thumbnail">
+                    <img src="images/thumbnails/game1.png" alt="게임1">
+                </div>
+                <div class="thumbnail">
+                    <img src="images/thumbnails/game2.png" alt="게임2">
+                </div>
+                <div class="thumbnail">
+                    <img src="images/thumbnails/game3.png" alt="게임3">
+                </div>
+                <div class="thumbnail">
+                    <img src="images/thumbnails/game4.png" alt="게임4">
+                </div>
+                <div class="thumbnail">
+                    <img src="images/thumbnails/game5.png" alt="게임5">
+                </div>
+                <div class="thumbnail">
+                    <img src="images/thumbnails/game6.png" alt="게임6">
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#">자막 및 음성</a></li>
+                    <li><a href="#">음성 지원</a></li>
+                    <li><a href="#">고객 센터</a></li>
+                    <li><a href="#">기프트카드</a></li>
+                    <li><a href="#">미디어 센터</a></li>
+                    <li><a href="#">투자 정보(IR)</a></li>
+                    <li><a href="#">입사 정보</a></li>
+                    <li><a href="#">이용 약관</a></li>
+                    <li><a href="#">개인정보</a></li>
+                    <li><a href="#">법적 고지</a></li>
+                    <li><a href="#">쿠키 설정</a></li>
+                    <li><a href="#">회사 정보</a></li>
+                    <li><a href="#">문의하기</a></li>
+                </ul>
+            </div>
+            <div class="service-code">
+                <button>서비스 코드</button>
+            </div>
+            <p class="copyright">&copy; 2025 Netflix, Inc.</p>
+        </div>
+    </footer>
+</body>
+</html>

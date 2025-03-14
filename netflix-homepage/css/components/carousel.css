@@ -1,0 +1,86 @@
+.carousel {
+    padding: 3vw 4%;
+    position: relative;
+}
+
+.thumbnails {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scrollbar-width: none; 
+    margin: 0 -8px;
+}
+
+.thumbnails::-webkit-scrollbar {
+    display: none; 
+}
+
+.thumbnail {
+    flex: 0 0 calc(100% / 6 - 16px);
+    margin: 0 8px;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.thumbnail:hover {
+    transform: scale(1.1);
+    z-index: 10;
+}
+
+.thumbnails.top-10 .thumbnail {
+    display: flex;
+    align-items: center;
+}
+
+.rank {
+    position: absolute;
+    left: 0;
+    bottom: -15%;
+    font-size: 10vw;
+    font-weight: bold;
+    color: #000;
+    -webkit-text-stroke: 2px #fff;
+    z-index: 2;
+}
+
+.thumbnails.top-10 .thumbnail img {
+    width: 80%;
+    margin-left: 20%;
+}
+
+
+.thumbnails.games .thumbnail {
+    aspect-ratio: 1/1.5;
+    background-color: #2f2f2f;
+}
+
+
+@media (max-width: 1200px) {
+    .thumbnail {
+        flex: 0 0 calc(100% / 4 - 16px);
+    }
+}
+
+@media (max-width: 768px) {
+    .thumbnail {
+        flex: 0 0 calc(100% / 3 - 16px);
+    }
+    
+    .rank {
+        font-size: 16vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .thumbnail {
+        flex: 0 0 calc(100% / 2 - 16px);
+    }
+}

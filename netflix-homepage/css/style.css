@@ -1,0 +1,28 @@
+body {
+    min-height: 100vh;
+    padding-top: 70px;
+    overflow-x: hidden;
+}
+
+main {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+h2 {
+    font-size: 1.4vw;
+    font-weight: 500;
+    margin-bottom: 0.8em;
+}
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 18px;
+    }
+}
