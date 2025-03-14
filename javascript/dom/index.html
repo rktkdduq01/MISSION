@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM 요소 선택 및 조작</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="main-title">DOM 요소 선택 및 조작하기</h1>
+    
+    <div class="container">
+        <section id="selection-section">
+            <h2>요소 선택 방법</h2>
+            <p class="info-text">다양한 방법으로 요소를 선택할 수 있습니다.</p>
+            <ul class="method-list">
+                <li>getElementById</li>
+                <li>getElementsByClassName</li>
+                <li>getElementsByTagName</li>
+                <li>querySelector</li>
+                <li>querySelectorAll</li>
+            </ul>
+            <button id="select-btn">요소 선택하기</button>
+        </section>
+        
+        <section id="manipulation-section">
+            <h2>요소 조작 방법</h2>
+            <p class="info-text">선택한 요소를 다양하게 조작할 수 있습니다.</p>
+            <div id="demo-element" class="demo">여기를 조작해 보세요!</div>
+            <div class="button-group">
+                <button id="text-btn">텍스트 변경</button>
+                <button id="html-btn">HTML 변경</button>
+                <button id="style-btn">스타일 변경</button>
+                <button id="class-btn">클래스 추가/제거</button>
+                <button id="attr-btn">속성 변경</button>
+            </div>
+        </section>
+        
+        <section id="creation-section">
+            <h2>요소 생성 및 추가/삭제</h2>
+            <div id="element-container">
+                <p>여기에 요소가 추가됩니다.</p>
+            </div>
+            <div class="button-group">
+                <button id="create-btn">요소 생성</button>
+                <button id="append-btn">요소 추가</button>
+                <button id="remove-btn">요소 삭제</button>
+            </div>
+        </section>
+        
+        <section id="event-section">
+            <h2>이벤트 처리</h2>
+            <div id="event-demo" class="demo">여기에 마우스를 올려보세요!</div>
+            <p id="event-output">이벤트 출력: </p>
+        </section>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
